@@ -1,6 +1,6 @@
 .main {
     width: 600px;
-    height: 400px;
+    height: auto;
     border: 1px solid black;
     margin-left: 300px;
     margin-top: 50px;
@@ -42,7 +42,9 @@
     border-radius: 10px;
     border: 1px solid orangered;
 
+
 }
+
 
 .btn2 {
     width: 100px;
@@ -65,17 +67,22 @@
     color: white;
     font-size: 20px;
     font-weight: 15px;
+    visibility: hidden;
     /* font-family: 'Permanent Marker', cursive; */
 }
 
-.paradiv {
+/* .paradiv {
     margin-left: 250px;
     margin-top: 28px;
-}
+} */
 
 .para1 {
     font-weight: 50px;
     font-size: 20px;
     color: orangered;
     /* font-family: 'Permanent Marker', cursive; */
+}
+
+.textfield {
+    visibility: hidden;
 }
